@@ -35,3 +35,9 @@ git commit -m "mensagem do commit"
 ```
 
 - OBS.: Isso cria um ponto no histórico do projeto, ou seja, uma nova versão.
+
+### 5. Retornando para a branch main
+
+```bash
+git checkout main
+```
