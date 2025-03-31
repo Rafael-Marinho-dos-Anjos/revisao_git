@@ -62,3 +62,15 @@ git checkout main
 
 git merge nova_branch
 ´´´
+
+### 9. Adicionar link para o repositório remoto
+
+```bash
+git remote add origin link
+```
+
+### 10. Enviar as alterações locais para o repositório remoto
+
+```bash
+git push origin nome_da_branch
+```
