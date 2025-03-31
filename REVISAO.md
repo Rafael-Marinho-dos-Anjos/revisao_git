@@ -41,3 +41,11 @@ git commit -m "mensagem do commit"
 ```bash
 git checkout main
 ```
+
+### 6. Puxando as alterações da nova branch para a main
+
+´´´bash
+# executando com a branch main ativa
+
+git merge nova_branch
+´´´
