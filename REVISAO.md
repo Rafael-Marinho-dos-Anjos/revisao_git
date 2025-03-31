@@ -57,11 +57,10 @@ git checkout main
 
 ### 8. Puxando as alterações da nova branch para a main
 
-´´´bash
+```bash
 # executando com a branch main ativa
-
 git merge nova_branch
-´´´
+```
 
 ### 9. Adicionar link para o repositório remoto
 
