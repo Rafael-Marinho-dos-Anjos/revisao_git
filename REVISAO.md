@@ -27,3 +27,11 @@ ou
 ```bash
 git add .
 ```
+
+### 4. Mandar todas as alterações preparadas para dentro do repositório local
+
+```bash
+git commit -m "mensagem do commit"
+```
+
+- OBS.: Isso cria um ponto no histórico do projeto, ou seja, uma nova versão.
