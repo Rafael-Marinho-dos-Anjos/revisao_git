@@ -36,13 +36,26 @@ git commit -m "mensagem do commit"
 
 - OBS.: Isso cria um ponto no histórico do projeto, ou seja, uma nova versão.
 
-### 5. Retornando para a branch main
+### 5. Foi criada uma nova branch
+
+```bash
+git checkout -b nova_branch
+```
+
+### 6. Enviando novas alterações para dentro do repositório
+
+```bash
+git add .
+git commit -m "Nova branch criada"
+```
+
+### 7. Retornando para a branch main
 
 ```bash
 git checkout main
 ```
 
-### 6. Puxando as alterações da nova branch para a main
+### 8. Puxando as alterações da nova branch para a main
 
 ´´´bash
 # executando com a branch main ativa
