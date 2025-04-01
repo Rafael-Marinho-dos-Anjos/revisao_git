@@ -62,6 +62,8 @@ git checkout main
 git merge nova_branch
 ```
 
+- Neste ponto ocorre um conflito entre as duas branches e o git solicita que seja resolvido. A resolução consiste em fazer um novo commit que une os conteúdos das duas branches (o próprio git já oferece um arquivo para ser editado que facilita o processo).
+
 ### 9. Adicionar link para o repositório remoto
 
 ```bash
